@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "br.com.rmmanutec.app",
+      "sha256_cert_fingerprints": [
+        "14:6D:E9:7D:0F:52:CE:E0:5B:9A:86:14:4F:9A:8A:2C:19:9C:5F:F2:F2:7C:1E:E9:39:62:38:09:64:4F:C7:E3"
+      ]
+    }
+  }
+]

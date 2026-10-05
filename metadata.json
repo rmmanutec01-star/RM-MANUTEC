@@ -1,0 +1,10 @@
+{
+  "name": "RM Manutec • Civil, Elétrica & Ar-Condicionado",
+  "description": "Portal completo de serviços prediais, manutenção civil, elétrica, climatização e suporte em tempo real da RM Manutec.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

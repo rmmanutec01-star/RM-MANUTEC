@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <linearGradient id="bgGrad192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f17"/>
+      <stop offset="50%" stop-color="#064e3b"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="shieldGrad192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="goldGrad192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="192" height="192" rx="42" fill="url(#bgGrad192)"/>
+  <rect width="192" height="192" rx="42" fill="none" stroke="#10b981" stroke-width="2.5" stroke-opacity="0.4"/>
+
+  <g transform="translate(0, 4)">
+    <path d="M 96,26 L 144,48 C 144,100 96,138 96,138 C 96,138 48,100 48,48 Z" 
+          fill="#0f172a" 
+          stroke="url(#shieldGrad192)" 
+          stroke-width="5" 
+          stroke-linejoin="round"/>
+    
+    <polygon points="100,48 76,88 96,88 92,120 116,78 97,78" 
+             fill="url(#goldGrad192)"/>
+  </g>
+
+  <text x="96" y="168" 
+        font-family="system-ui, -apple-system, sans-serif" 
+        font-size="20" 
+        font-weight="900" 
+        letter-spacing="1"
+        fill="#ffffff" 
+        text-anchor="middle">
+    RM MANUTEC
+  </text>
+</svg>

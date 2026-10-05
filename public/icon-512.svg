@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f17"/>
+      <stop offset="50%" stop-color="#064e3b"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background rounded squircle (Play Store standard) -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+  <rect width="512" height="512" rx="112" fill="none" stroke="#10b981" stroke-width="6" stroke-opacity="0.3"/>
+
+  <!-- Shield Base -->
+  <g filter="url(#shadow)" transform="translate(0, 10)">
+    <path d="M 256,70 L 380,125 C 380,260 256,360 256,360 C 256,360 132,260 132,125 Z" 
+          fill="#0f172a" 
+          stroke="url(#shieldGrad)" 
+          stroke-width="12" 
+          stroke-linejoin="round"/>
+    
+    <!-- Inner Shield Accent -->
+    <path d="M 256,92 L 360,138 C 360,248 256,334 256,334 C 256,334 152,248 152,138 Z" 
+          fill="none" 
+          stroke="#059669" 
+          stroke-width="4" 
+          stroke-opacity="0.5"/>
+    
+    <!-- Central Lightning Zap -->
+    <polygon points="266,130 205,230 256,230 246,310 307,205 258,205" 
+             fill="url(#goldGrad)" 
+             filter="url(#shadow)"/>
+  </g>
+
+  <!-- Typography Monogram RM -->
+  <text x="256" y="445" 
+        font-family="system-ui, -apple-system, sans-serif" 
+        font-size="64" 
+        font-weight="900" 
+        letter-spacing="4"
+        fill="#ffffff" 
+        text-anchor="middle"
+        filter="url(#shadow)">
+    RM MANUTEC
+  </text>
+  
+  <text x="256" y="480" 
+        font-family="system-ui, -apple-system, sans-serif" 
+        font-size="22" 
+        font-weight="700" 
+        letter-spacing="6"
+        fill="#34d399" 
+        text-anchor="middle">
+    24 HORAS • SALVADOR
+  </text>
+</svg>

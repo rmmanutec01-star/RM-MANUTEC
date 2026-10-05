@@ -1,0 +1,73 @@
+{
+  "name": "RM Manutec - Serviços & Manutenção 24h",
+  "short_name": "RM Manutec",
+  "description": "Aplicativo oficial de serviços de engenharia civil, elétrica, hidráulica e climatização 24 horas em Salvador e Região Metropolitana.",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "id": "br.com.rmmanutec.app",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#0b0f17",
+  "theme_color": "#059669",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "categories": ["business", "utilities", "productivity", "lifestyle"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Solicitar Atendimento",
+      "short_name": "Solicitar",
+      "description": "Abrir nova solicitação ou chamado técnico",
+      "url": "/?action=solicitar",
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Acompanhar Chamado",
+      "short_name": "Acompanhar",
+      "description": "Consultar status de protocolo em tempo real",
+      "url": "/?action=tracking",
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Plantão 24h WhatsApp",
+      "short_name": "Plantão 24h",
+      "description": "Falar imediatamente com o engenheiro de plantão",
+      "url": "/?action=contato",
+      "icons": [{ "src": "/icon-192.svg", "sizes": "192x192" }]
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=br.com.rmmanutec.app",
+      "id": "br.com.rmmanutec.app"
+    }
+  ]
+}
